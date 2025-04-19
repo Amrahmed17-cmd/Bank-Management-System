@@ -1,0 +1,3 @@
+﻿  main.cpp
+F:\My old laptop Data\PC\DeskTop\Projects 2nd Term\NeoBMS\BMSneo\main.cpp(1235,10): warning C4101: 'anotherTransaction': unreferenced local variable
+  BMSneo.vcxproj -> F:\My old laptop Data\PC\DeskTop\Projects 2nd Term\NeoBMS\BMSneo\x64\Debug\BMSneo.exe
