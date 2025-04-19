@@ -42,7 +42,29 @@ A C++ console application for managing banking operations with different user ro
 
 ## 📂 Project Structure  
 📦 BMSneo
-├── 📄 main.cpp
-├── 📄 Admin Database.txt
-├── 📄 Stuff Database.txt
-└── 📄 Client Database.txt
+- `main.cpp` – Main source file for the system
+- `Client Database.txt` – Client account records
+- `Stuff Database.txt` – Staff account records
+- `Admin Database.txt` – Admin account records
+
+## 📝 Account ID Format
+- Admin accounts must start with: AD
+- Staff accounts must start with: ST
+- Client accounts must start with: AC
+
+## 📌 Requirements
+- Windows OS (uses `conio.h`, `system("cls")`, etc.)
+- C++ compiler (G++, MSVC, CodeBlocks, etc.) with C++11 or higher support
+
+## 🚀 How to Run
+1. Place all `.txt` database files in the same directory as `main.cpp`
+2. Compile the project:
+   ```bash
+   g++ main.cpp -o BankSystem
+ or Use C++ IDE
+
+## 👨‍💻 Developer
+- Created by: Amr
+
+## 📜 License
+- This project is open-source and available for educational use.
